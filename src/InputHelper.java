@@ -18,7 +18,7 @@ public class InputHelper {
                 done = true;
             }
             else {
-                System.out.println("HOLY FUCKKKKKK!");
+                System.out.println("You have entered an invalid input");
             }
             in.nextLine(); //clear buffer
         } while (!done);
@@ -37,12 +37,12 @@ public class InputHelper {
                     done = true;
                 }
                 else {
-                    System.out.println("WHORE???");
+                    System.out.println("You have entered an invalid input");
                 }
 
             }
             else {
-                System.out.println("HOLY FUCKKKKKK!");
+                System.out.println("You have entered an invalid input");
             }
             in.nextLine(); //clear buffer
         } while (!done);
@@ -119,7 +119,7 @@ public class InputHelper {
                 done = true;
             }
             else {
-                System.out.println("FUCK YOU ASSHOLE");
+                System.out.println("You have entered an invalid input");
             }
         } while (!done);
         return input;
